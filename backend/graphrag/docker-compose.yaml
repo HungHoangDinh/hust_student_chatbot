@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  fastapi:
+    build: .
+    container_name: fastapi_rag_app
+    ports:
+      - "8000:8000"  
+    volumes:
+      - .:/app 
+    environment:
+      - PYTHONUNBUFFERED=1

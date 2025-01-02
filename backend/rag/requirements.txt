@@ -1,0 +1,8 @@
+fastapi
+pydantic
+uvicorn
+chromadb~=0.5.17
+langchain-text-splitters
+python-dotenv~=1.0.1
+requests~=2.32.3
+sentence_transformers
